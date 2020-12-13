@@ -1,0 +1,15 @@
+{
+    "name": "vagrant/chasdom-mail.test",
+    "authors": [
+        {
+            "name": "Marat D",
+            "email": "marat.icanall@ya.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "pelago/emogrifier": "^5.0",
+        "phpmailer/phpmailer": "^6.2",
+        "vlucas/phpdotenv": "^5.2"
+    }
+}
