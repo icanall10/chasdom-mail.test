@@ -23,7 +23,7 @@ $mail->addAddress('marat.icanall@ya.ru');
 
 $mail->isHTML(true);
 $mail->Subject = 'test';
-$mail->Body = file_get_contents('http://chasdom-mail.icanall10.ru/design.php');
+$mail->Body = file_get_contents('http://chasdom-mail.icanall10.ru/building.php');
 $mail->CharSet = 'UTF-8';
 
 echo $mail->send();

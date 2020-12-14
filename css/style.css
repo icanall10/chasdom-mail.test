@@ -88,7 +88,7 @@ th {
     text-decoration: none;
     display: block;
     text-align: center;
-    font-size: 15px;
+    font-size: 16px;
     border-right: 1px solid #9299A5;
 }
 #header .menu td:last-child a {
@@ -428,7 +428,7 @@ body.building #sale .best img {
 #variants .sale-discount {
     color: #ffc62c;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 17px;
     margin-bottom: 14px;
 }
 #variants .sale-text {
