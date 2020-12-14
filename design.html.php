@@ -6,10 +6,6 @@
     <head>
         <meta charset="utf-8">
         <title></title>
-
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
-
     </head>
     <body>
         <div id="wrapper">
@@ -148,6 +144,11 @@
                                 <td>
                                     <a href="https://www.instagram.com/chasdom.ru/">
                                         <img src="<?= url('/img/ig.png') ?>" alt="">
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="mailto:hello@chasdom.ru">
+                                        <img src="<?= url('/img/email.png') ?>" alt="">
                                     </a>
                                 </td>
                             </tr>
@@ -340,6 +341,11 @@
                                         <img src="<?= url('/img/ig.png') ?>" alt="">
                                     </a>
                                 </td>
+                                <td>
+                                    <a href="mailto:hello@chasdom.ru">
+                                        <img src="<?= url('/img/email.png') ?>" alt="">
+                                    </a>
+                                </td>
                             </tr>
                         </table>
                     </div>
@@ -355,7 +361,7 @@
                             Вы получили это письмо, потому что подписались на получение новостей и акций компании
                             «Частный дом». <br>
                             Рассылка производится в соответствии с <a href="#">пользовательским соглашением</a>.
-                            Если вы не хотите получать рассылку, вы можете <a href="#">отписаться</a>
+                            Если вы не хотите получать рассылку, вы можете <a href="#UNSUBSCRIBE_LINK#">отписаться</a>
                         </div>
                     </div>
                 </div>

@@ -10,6 +10,10 @@ body {
     min-width: 600px;
 }
 
+* {
+    font-family: Tahoma, HelveticaNeueCyr, Arial, sans-serif;
+}
+
 .container {
     margin: 0 28px;
 }
@@ -86,7 +90,6 @@ th {
     text-align: center;
     font-size: 15px;
     border-right: 1px solid #9299A5;
-    font-family: "Noto Sans", Tahoma, sans-serif;
 }
 #header .menu td:last-child a {
     border: none;
