@@ -47,6 +47,18 @@ p:last-child {
     margin-bottom: 0;
 }
 
+.strike {
+    position: relative;
+}
+.strike span {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: red;
+}
+
 strong, b {
     font-weight: bold;
 }
@@ -121,7 +133,7 @@ th {
 
 #price {
     background: #25344C;
-    padding: 28px 0;
+    padding: 28px 0 15px;
     color: #ffffff;
 }
 #price img {
@@ -151,7 +163,7 @@ th {
     line-height: 1.4;
     padding-bottom: 26px;
     border-bottom: 1px solid #fff;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 #price .free img {
     margin-right: 11px;
@@ -164,6 +176,11 @@ th {
     font-weight: bold;
     text-align: center;
     line-height: 1;
+}
+#price .total img {
+    width: 328px;
+    margin: 0 auto;
+    display: block;
 }
 #price * {
     color: #ffffff;

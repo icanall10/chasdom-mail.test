@@ -108,7 +108,7 @@
                             </table>
                         </div>
                         <div class="total">
-                            Всего за 250 ₽/м²
+                            <img src="<?= url('img/discount.png') ?>" alt="">
                         </div>
                     </div>
                 </div>
@@ -364,7 +364,15 @@
                 </div>
 
 
+                <style>
+                    body, html, #wrapper {
+                        min-width: 600px;
+                    }
+                </style>
+
+
             </div>
         </div>
     </body>
 </html>
+
