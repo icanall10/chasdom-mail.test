@@ -63,6 +63,7 @@ th {
 #header .logo img {
     display: block;
     margin: 0 auto;
+    width: 223px;
 }
 
 #header .menu {
@@ -91,7 +92,6 @@ th {
 /* sale */
 
 #sale {
-    background: url(../img/sale.png) no-repeat top #25344C;
     height: 346px;
     line-height: 1.2;
 }
@@ -154,6 +154,9 @@ th {
     font-weight: bold;
     text-align: center;
     line-height: 1;
+}
+#price * {
+    color: #ffffff;
 }
 
 
@@ -276,12 +279,15 @@ th {
 
 #footer {
     padding: 28px 0;
-    background: #F3F3F3;
-    font-size: 14px;
-    color: #6b6b6b;
     margin-top: 28px;
+    background: #F3F3F3;
 }
 #footer a {
     color: #25344c;
     text-decoration: underline;
+}
+#footer .text {
+    line-height: 1.5;
+    font-size: 14px;
+    color: #6b6b6b;
 }

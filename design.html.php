@@ -45,7 +45,7 @@
                 </div>
 
 
-                <div id="sale">
+                <div id="sale" style="background: url(<?= url('img/sale.png') ?>) no-repeat top #25344C;">
                     <div class="container">
                         <div class="text-1">Не будьте, как все!</div>
                         <div class="text-2">Подготовьтесь к началу строительства обстоятельно и с умом вместе с нами

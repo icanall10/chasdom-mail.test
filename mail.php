@@ -19,9 +19,11 @@ $mail->Port = 465;
 
 $mail->setFrom('udzsqdghotqqogwk@mail.ru', 'Marat Test');
 $mail->addAddress('marat.icanall@ya.ru');
+//$mail->addAddress('maratdarbisev@gmail.com');
 
 $mail->isHTML(true);
 $mail->Subject = 'test';
 $mail->Body = file_get_contents('http://chasdom-mail.icanall10.ru/design.php');
+$mail->CharSet = 'UTF-8';
 
 echo $mail->send();
