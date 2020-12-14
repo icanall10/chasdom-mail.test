@@ -55,7 +55,7 @@
 
 
                 <div id="after-sale" class="block">
-                    <div class="container">
+                    <div class="container html-text">
                         <p>
                             Если вы хотите начать строительство в 2021 году, будет очень разумно начать проектные работы
                             уже сейчас — у вас будет достаточно времени без спешки подумать с семьей над предлагаемыми
@@ -116,7 +116,6 @@
                         </div>
                         <div class="total">
                             Всего за 250 ₽/м²
-
                         </div>
                     </div>
                 </div>
@@ -153,11 +152,11 @@
                     </div>
                     <div class="items">
                         <div class="item">
-                            <div class="container">
-                                <div class="name">Анализ участка</div>
-                            </div>
                             <div class="img">
                                 <img src="<?= url('/img/step1.png') ?>" alt="">
+                            </div>
+                            <div class="container">
+                                <div class="name">Анализ участка</div>
                             </div>
                             <div class="container">
                                 <div class="text html-text">

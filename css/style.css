@@ -22,7 +22,7 @@ body {
 
 #wrapper {
     min-height: 100vh;
-    background: #eee;
+    background: #f8f8f8;
 }
 #content {
     width: 600px;
@@ -31,6 +31,8 @@ body {
     min-height: 100px;
     margin: 0 auto;
     padding: 1px 0;
+
+    box-shadow: 0 0 4px 0 #ddd;
 }
 
 p {
@@ -94,6 +96,9 @@ th {
 #sale {
     height: 346px;
     line-height: 1.2;
+}
+#sale .inner {
+    background: #25344C;
 }
 #sale .text-1 {
     font-size: 20px;
@@ -162,6 +167,10 @@ th {
 
 /* social */
 
+#social {
+    margin: 45px 0;
+}
+
 .social table {
     width: 360px;
     margin: 0 auto;
@@ -200,7 +209,8 @@ th {
     width: 100%;
     height: auto;
 }
-.more  {
+
+.more {
     text-align: center;
     margin-top: 28px;
     border-top: 1px solid #EAEAEA;
@@ -227,27 +237,29 @@ th {
 .html-text ul li {
     list-style: disc;
 }
+.html-text,
+.html-text * {
+    line-height: 1.55;
+}
 
 
 /* result */
 
 #result .title {
     font-size: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     line-height: 1.2;
 }
 #result td {
     vertical-align: middle;
-    padding: 0 0 20px;
+    padding: 10px 0;
     line-height: 1.5;
-}
-#result tr:last-child td {
-    padding-bottom: 0;
 }
 #result td:first-child {
     font-size: 40px;
     padding-right: 16px;
     line-height: 1;
+    padding-top: 5px;
 }
 
 
@@ -287,7 +299,158 @@ th {
     text-decoration: underline;
 }
 #footer .text {
-    line-height: 1.5;
+    line-height: 1.65;
     font-size: 14px;
     color: #6b6b6b;
+}
+
+
+/* sale building */
+
+body.building #sale {
+    height: auto;
+}
+body.building #sale .inner {
+    background: none;
+    margin-bottom: 25px;
+}
+body.building #sale .text-1 {
+    padding-top: 285px;
+}
+body.building #sale .best {
+    background: #FFC62C;
+    padding: 25px 20px;
+}
+body.building #sale .best td {
+    vertical-align: middle;
+    font-size: 24px;
+    line-height: 1.32;
+}
+body.building #sale .best img {
+    display: block;
+    margin-right: 20px;
+}
+
+
+/* how-it-work */
+
+#how-it-work .title {
+    font-size: 30px;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+#how-it-work table td {
+    line-height: 1.45;
+    padding-bottom: 28px;
+    vertical-align: middle;
+}
+#how-it-work table td:first-child {
+    font-size: 40px;
+    padding-right: 18px;
+    line-height: 1;
+}
+#how-it-work table tr:last-child td {
+    padding-bottom: 0;
+}
+#how-it-work .text {
+    margin-bottom: 20px;
+}
+
+
+#winter {
+    background: #25344C;
+    color: #ffffff;
+    padding: 26px 0;
+}
+#winter .text {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+/* variants */
+
+#variants .title {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+#variants .img img {
+    display: block;
+}
+#variants .img {
+    margin-bottom: 28px;
+}
+#variants .item .name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+#variants .item .text {
+    font-size: 25px;
+    line-height: 1.4;
+}
+#variants .item .text-2 {
+    margin: 28px 0;
+}
+#variants .sale-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+#variants .sale table {
+    width: 100%;
+}
+#variants .sale td {
+    width: 33.333%;
+    padding: 24px 18px;
+    background: #926557;
+    color: #ffffff;
+}
+#variants .sale .sale-2 {
+    background: #6F8D64;
+}
+#variants .sale .sale-3 {
+    background: #575B83;
+}
+#variants .sale td .sale-icon {
+    margin-bottom: 24px;
+}
+#variants .sale td .sale-icon img {
+    display: block;
+}
+#variants .sale-discount {
+    color: #ffc62c;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+#variants .sale-text {
+    line-height: 1.5;
+}
+#variants .more {
+    margin: 0;
+    padding: 38px 0;
+    border: none;
+}
+
+
+
+/* result building */
+
+body.building #result {
+    background: #f5f5f5;
+    padding: 28px 0;
+}
+body.building #result .title {
+    font-size: 45px;
+}
+
+
+/* social-footer building */
+
+body.building #social-footer {
+    margin: 0;
+    border: none;
 }
