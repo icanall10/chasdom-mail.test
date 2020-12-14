@@ -188,7 +188,8 @@
                                             </div>
                                             <div class="sale-discount">
                                                 <div class="label">Скидка</div>
-                                                70000 - 170000 ₽
+                                                от 70 000 ₽<br>
+                                                до 170 000 ₽
                                             </div>
                                             <div class="sale-text">
                                                 при оплате 10% от сметы по договору.
@@ -200,7 +201,8 @@
                                             </div>
                                             <div class="sale-discount">
                                                 <div class="label">Скидка</div>
-                                                120000 - 220000 ₽
+                                                от 120 000 ₽<br>
+                                                до 220 000 ₽
                                             </div>
                                             <div class="sale-text">
                                                 при оплате 10% от сметы по договору.
@@ -212,7 +214,8 @@
                                             </div>
                                             <div class="sale-discount">
                                                 <div class="label">Скидка</div>
-                                                170000 - 270000 ₽
+                                                от 170 000 ₽<br>
+                                                до 270 000 ₽
                                             </div>
                                             <div class="sale-text">
                                                 при оплате 10% от сметы по договору.
@@ -252,7 +255,8 @@
                                             </div>
                                             <div class="sale-discount">
                                                 <div class="label">Скидка</div>
-                                                40000 - 120000 ₽
+                                                от 40 000 ₽<br>
+                                                до 120 000 ₽
                                             </div>
                                             <div class="sale-text">
                                                 при оплате 10% от сметы по договору.
@@ -264,7 +268,8 @@
                                             </div>
                                             <div class="sale-discount">
                                                 <div class="label">Скидка</div>
-                                                90000 - 170000 ₽
+                                                от 90 000 ₽<br>
+                                                до 170 000 ₽
                                             </div>
                                             <div class="sale-text">
                                                 при оплате 30% от сметы по договору.
@@ -276,7 +281,8 @@
                                             </div>
                                             <div class="sale-discount">
                                                 <div class="label">Скидка</div>
-                                                140000 - 220000 ₽
+                                                от 140 000 ₽<br>
+                                                до 220 000 ₽
                                             </div>
                                             <div class="sale-text">
                                                 при оплате 50% от сметы по договору.
@@ -379,18 +385,11 @@
                         <div class="text">
                             Вы получили это письмо, потому что подписались на получение новостей и акций компании
                             «Частный дом». <br>
-                            Рассылка производится в соответствии с <a href="#">пользовательским соглашением</a>.
+                            Рассылка производится в соответствии с <a href="https://chasdom.ru/polzovatelskoe-soglashenie">пользовательским соглашением</a>.
                             Если вы не хотите получать рассылку, вы можете <a href="#UNSUBSCRIBE_LINK#">отписаться</a>
                         </div>
                     </div>
                 </div>
-
-
-                <style>
-                    body, html, #wrapper {
-                        min-width: 600px;
-                    }
-                </style>
 
 
             </div>

@@ -1,0 +1,8 @@
+@media only screen and (max-width: 479px) {
+
+    .html-text,
+    .html-text * {
+        font-size: 21px !important;
+    }
+
+}
