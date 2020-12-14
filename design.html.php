@@ -126,19 +126,29 @@
                         <table>
                             <tr>
                                 <td>
-                                    <img src="<?= url('/img/tg.png') ?>" alt="">
+                                    <a href="https://t.me/chasdom_bot">
+                                        <img src="<?= url('/img/tg.png') ?>" alt="">
+                                    </a>
                                 </td>
                                 <td>
-                                    <img src="<?= url('/img/wa.png') ?>" alt="">
+                                    <a href="https://api.whatsapp.com/send?phone=79855385292">
+                                        <img src="<?= url('/img/wa.png') ?>" alt="">
+                                    </a>
                                 </td>
                                 <td>
-                                    <img src="<?= url('/img/yt.png') ?>" alt="">
+                                    <a href="https://www.youtube.com/channel/UCkS6XQlxNymmwxbZ5cUh1Yw">
+                                        <img src="<?= url('/img/yt.png') ?>" alt="">
+                                    </a>
                                 </td>
                                 <td>
-                                    <img src="<?= url('/img/fb.png') ?>" alt="">
+                                    <a href="https://www.facebook.com/chasdom">
+                                        <img src="<?= url('/img/fb.png') ?>" alt="">
+                                    </a>
                                 </td>
                                 <td>
-                                    <img src="<?= url('/img/ig.png') ?>" alt="">
+                                    <a href="https://www.instagram.com/chasdom.ru/">
+                                        <img src="<?= url('/img/ig.png') ?>" alt="">
+                                    </a>
                                 </td>
                             </tr>
                         </table>
@@ -306,19 +316,29 @@
                         <table>
                             <tr>
                                 <td>
-                                    <img src="<?= url('/img/tg.png') ?>" alt="">
+                                    <a href="https://t.me/chasdom_bot">
+                                        <img src="<?= url('/img/tg.png') ?>" alt="">
+                                    </a>
                                 </td>
                                 <td>
-                                    <img src="<?= url('/img/wa.png') ?>" alt="">
+                                    <a href="https://api.whatsapp.com/send?phone=79855385292">
+                                        <img src="<?= url('/img/wa.png') ?>" alt="">
+                                    </a>
                                 </td>
                                 <td>
-                                    <img src="<?= url('/img/yt.png') ?>" alt="">
+                                    <a href="https://www.youtube.com/channel/UCkS6XQlxNymmwxbZ5cUh1Yw">
+                                        <img src="<?= url('/img/yt.png') ?>" alt="">
+                                    </a>
                                 </td>
                                 <td>
-                                    <img src="<?= url('/img/fb.png') ?>" alt="">
+                                    <a href="https://www.facebook.com/chasdom">
+                                        <img src="<?= url('/img/fb.png') ?>" alt="">
+                                    </a>
                                 </td>
                                 <td>
-                                    <img src="<?= url('/img/ig.png') ?>" alt="">
+                                    <a href="https://www.instagram.com/chasdom.ru/">
+                                        <img src="<?= url('/img/ig.png') ?>" alt="">
+                                    </a>
                                 </td>
                             </tr>
                         </table>
