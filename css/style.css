@@ -71,7 +71,7 @@ th {
 
 #header .menu {
     background: #25344C;
-    padding: 0 8px;
+    padding: 0 6px;
 }
 #header .menu table {
     width: 100%;
@@ -84,7 +84,7 @@ th {
     text-decoration: none;
     display: block;
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
     border-right: 1px solid #9299A5;
 }
 #header .menu td:last-child a {
