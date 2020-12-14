@@ -187,7 +187,7 @@
                                                 <img src="<?= url('img/sale-icon.png') ?>" alt="">
                                             </div>
                                             <div class="sale-discount">
-                                                Скидка <br>
+                                                <div class="label">Скидка</div> 
                                                 70000 - 170000 ₽
                                             </div>
                                             <div class="sale-text">
@@ -199,7 +199,7 @@
                                                 <img src="<?= url('img/sale-icon.png') ?>" alt="">
                                             </div>
                                             <div class="sale-discount">
-                                                Скидка <br>
+                                                <div class="label">Скидка</div> 
                                                 120000 - 220000 ₽
                                             </div>
                                             <div class="sale-text">
@@ -211,7 +211,7 @@
                                                 <img src="<?= url('img/sale-icon.png') ?>" alt="">
                                             </div>
                                             <div class="sale-discount">
-                                                Скидка <br>
+                                                <div class="label">Скидка</div> 
                                                 170000 - 270000 ₽
                                             </div>
                                             <div class="sale-text">
@@ -251,7 +251,7 @@
                                                 <img src="<?= url('img/sale-icon.png') ?>" alt="">
                                             </div>
                                             <div class="sale-discount">
-                                                Скидка <br>
+                                                <div class="label">Скидка</div> 
                                                 40000 - 120000 ₽
                                             </div>
                                             <div class="sale-text">
@@ -263,7 +263,7 @@
                                                 <img src="<?= url('img/sale-icon.png') ?>" alt="">
                                             </div>
                                             <div class="sale-discount">
-                                                Скидка <br>
+                                                <div class="label">Скидка</div> 
                                                 90000 - 170000 ₽
                                             </div>
                                             <div class="sale-text">
@@ -275,7 +275,7 @@
                                                 <img src="<?= url('img/sale-icon.png') ?>" alt="">
                                             </div>
                                             <div class="sale-discount">
-                                                Скидка <br>
+                                                <div class="label">Скидка</div> 
                                                 140000 - 220000 ₽
                                             </div>
                                             <div class="sale-text">
