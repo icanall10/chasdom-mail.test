@@ -20,9 +20,6 @@
                     <div class="menu">
                         <table>
                             <tr>
-<!--                                <td>-->
-<!--                                    <a href="https://chasdom.ru/chem-my-otlichaemsya-ot-drugih">Полезно знать</a>-->
-<!--                                </td>-->
                                 <td>
                                     <a href="https://chasdom.ru/uslugi-i-ceny-na-proektirovanie">Услуги и цены</a>
                                 </td>
